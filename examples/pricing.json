@@ -1,0 +1,10 @@
+{
+  "aws_instance": {
+    "t3.micro":  { "hourly_usd": 0.0104, "description": "t3.micro On-Demand Linux (us-east-1)" },
+    "t3.small":  { "hourly_usd": 0.0208, "description": "t3.small On-Demand Linux (us-east-1)" },
+    "t3.medium": { "hourly_usd": 0.0416, "description": "t3.medium On-Demand Linux (us-east-1)" },
+    "t3.large":  { "hourly_usd": 0.0832, "description": "t3.large On-Demand Linux (us-east-1)" }
+  },
+  "aws_eks_cluster": {
+    "standard": { "hourly_usd": 0.10, "description": "EKS cluster control plane (us-east-1)" }
+  },
